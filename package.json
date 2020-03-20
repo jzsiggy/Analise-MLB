@@ -4,5 +4,8 @@
   "description": "MLB Analysis",
   "main": "index.js",
   "author": "Joao Zsigmond [{ jzsiggy }]",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
