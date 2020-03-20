@@ -1,0 +1,8 @@
+{
+  "name": "analiseMLB",
+  "version": "1.0.0",
+  "description": "MLB Analysis",
+  "main": "index.js",
+  "author": "Joao Zsigmond [{ jzsiggy }]",
+  "license": "MIT"
+}
