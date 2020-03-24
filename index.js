@@ -5,12 +5,12 @@ const { getItemsInCategory } = require('./assets/getItemsInCategory');
 const { categories } = require('./assets/categories');
 
 getAllItemsByCat = async (categoryList) => {
-  let counter = 0;
+  let counter = 56;
   let workBook =  XLSX.utils.book_new()
 
   for (let category of categoryList) {
 
-    console.log(`{{[[ ¡! STARTING !¡ ]]}} ${counter++} : ${category['path']}.`);
+    console.log(`{{[[ ¡! STARTING !¡ ]]}} ${counter} : ${category['path']}.`);
 
     let items = await getItemsInCategory(category['id']);
 
