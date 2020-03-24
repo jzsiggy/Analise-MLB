@@ -6,6 +6,8 @@
   "author": "Joao Zsigmond [{ jzsiggy }]",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "xlsx": "^0.15.6"
   }
 }
